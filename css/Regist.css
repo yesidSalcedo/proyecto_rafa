@@ -1,0 +1,100 @@
+*{
+	border: 0;
+	margin: 0;
+	font-family: arial;
+}
+
+div#Contend_1{
+	margin: auto;
+	/*max-width: 420px;*/
+	width: 100%;
+}
+
+header{
+	height: 50px;
+	background-color: rgb(251,175,93);
+}
+
+div#Img_logo{
+	padding: 8px 20px;
+}
+
+div#Img_logo img{
+	width: 35px;
+	height: 35px;
+}
+
+div#Contend_2{
+	border-radius: 10px;
+	margin: 20px auto;
+	max-width: 220px;
+	width: 100%;
+	padding: 20px;
+	background-color: rgb(220,220,220);
+}
+
+div#User_marco{
+	border-radius: 5px;
+	margin: 5px 5px;
+	max-width: 35%;
+	padding: 5px;
+	width:100%;
+	height: auto;
+	background-color: rgb(174, 165, 165);
+}
+
+div#User_marco img{
+	width: 100%;
+	padding-bottom:5px; 
+	margin: auto;
+}
+
+div#Form {
+	text-align: center;
+	margin: auto;
+}
+
+/*Botones*/
+div#Form form button{
+	margin-top:12px;
+	border-radius: 5px;
+	/* Sombreado de los botones*/
+	-webkit-box-shadow: 0px 2px 5px 0.02px rgba(143,143,143,1);
+	-moz-box-shadow: 0px 2px 5px 0.02px rgba(143,143,143,1);
+	-o-box-shadow: 0px 2px 5px 0.02px rgba(143,143,143,1);
+	box-shadow: 0px 2px 5px 0.02px rgba(143,143,143,1);
+	/*-------------------------*/
+	font-weight: bold;
+	font-size: 16px;
+	background-color: rgb(235,235,235);
+	height: 35px;
+	width: 150px;
+}
+
+div#Form form input{
+	margin-top:5px;
+	border-radius: 	5px;
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size: 14px;
+	padding: 3px 10px;
+	height: 25px;
+	width: 180px;
+}
+
+div#Form form #esp{
+	margin-top: 15px;
+}
+
+div#Form form #checkbox{
+	width: 40px;
+	height: auto;
+	padding: 4px;
+}
+
+div#Form form img{
+	padding-left: 10px;
+}
+
+
+
